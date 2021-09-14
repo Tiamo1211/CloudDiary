@@ -1,0 +1,59 @@
+@import url(public.css);
+body,html{overflow-x:hidden}
+#head { width:100%; height:70px; background:url(../images/login-top-bg.jpg) repeat-x;}
+#head .top { width:1003px; height:70px; line-height:70px;}
+
+/* banner 幻灯片位置开始*/
+#flash{ clear:both; text-align:center;}
+#flash .pos { width:100%; height:480px; overflow:hidden; }
+#flash a { width:100%; height:480px; display: none;}
+.flash_bar { width:100%; padding-left:50%; height:30px;) repeat-x; text-align:center; padding-top:12px; position:absolute; z-index:69; top:500px;bottom:0px; left:0px; overflow:hidden;}
+.flash_bar .dq {display:block; float:left; width:12px; height:12px; margin:2px 4px; cursor:pointer; background: url(../images/pagination.png) no-repeat 0px -12px; overflow:hidden;}
+.flash_bar .no { display:block; float:left; width:12px; height:12px; margin:2px 4px; cursor:pointer; background:url(../images/pagination.png) no-repeat 0px 0px; overflow:hidden;}
+
+
+.wrapper { width:980px; position:relative;}
+/* login-box */
+.box,.box2,.loginbar,.loginbar li.cur,.loginbar1,.loginbar2,.loginbar3,.loginbar4,.help,
+.user,.userhover,.pwd,.pwdhover,.log,.log:hover,.reg,.reg:hover,
+.android,.iphone,.pc,.android2,.iphone2,.pc2{ background:url(../images/icon.png) no-repeat;}
+.loginbar1,.loginbar2 { width:149px; height:50px;}
+.user,.userhover,.pwd,.pwdhover { width:214px; height:45px; border:none; line-height:45px; padding:0px 0 0 35px; color:#ccc;}
+.log,.reg { width:112px; height:37px; border:none; line-height:37px; cursor:pointer;}
+#box { width:302px; height:376px; position:absolute; z-index:900; top:50px; right:0px; }
+.loginbar { width:302px; height:50px; background-position:-5px 0px;text-align:center; font-size:16px; font-weight:bold; line-height:50px; }
+.loginbar li { width:149px;  text-align:center; font-size:16px; font-weight:bold; line-height:50px; float:left; cursor:pointer;}
+.loginbar li.cur {  background-position:-156px 0px;}
+.loginbar .loginbar1 { background-position:-5px 0px;}
+.loginbar .loginbar2 { background-position:-313px 0px; color:#3a8cde;}
+
+#box .box { width:277px; height:226px; background-position:-5px -50px; padding:25px 0 0 25px;}
+#box .box2 { width:277px; height:226px; background-position:-5px -50px; padding:25px 0 0 25px;}
+#box .user { background-position:-8px -394px;}
+#box .userhover { background-position:-273px -394px; color:#185aa5;}
+#box .pwd { background-position:-8px -455px;}
+#box .pwdhover { background-position:-273px -455px; color:#185aa5;}
+#box .log { background-position:-10px -528px; color:#fff;}
+#box .log:hover { background-position:-139px -528px;}
+#box .reg { background-position:-274px -528px; color:#333;}
+#box .reg:hover { background-position:-403px -528px;}
+#box .help { width:302px; height:74px; background-position:-5px -303px;}
+#box .help ul { padding:10px 0 0 20px;}
+#box .help li { width:260px; height:25px; line-height:25px; overflow:hidden;}
+
+#bottom { width:100%; background:#fff;}
+#copyright { width:980px; text-align:center; line-height:25px;}
+#copyright .quick { width:980px;text-align:center; padding:10px 0px 0px 0px;}
+#copyright .quick ul { padding:1px 1px 1px 1px;list-style-type:none;display:inline;}
+#copyright .quick li { width:183px; height:40px; margin:0 0 0 10px; list-style-type:none;display:inline;}
+#copyright .quickbd { border:#adccea 1px solid;}
+#copyright .quickbd2 { border:#59a3ea 1px solid;}
+.android,.iphone,.pc { width:183px; height:40px;}
+#copyright .android { background-position:-11px -576px;}
+#copyright .android:hover { background-position:-11px -628px;}
+#copyright .iphone { background-position:-206px -576px;}
+#copyright .iphone:hover { background-position:-206px -628px;}
+#copyright .pc { background-position:-401px -576px;}
+#copyright .pc:hover { background-position:-401px -628px;}
+#copyright .text { padding:0 0 10px 0}
+#Msg{color:#F00;}

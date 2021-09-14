@@ -1,0 +1,58 @@
+.data_list{
+	border: 1px solid #E5E5E5;
+	padding: 10px;
+	background-color: white;
+	margin-top: 15px;
+}
+
+.data_list .data_list_title{
+	font-size: 15px;
+	font-weight: bold;
+	border-bottom: 1px solid #E5E5E5;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+
+.data_list .userimg,.data_list .nick, .data_list .mood{
+	text-align: center;
+}
+.data_list .userimg img{
+	padding-top:10px;
+	width: 240px;
+	height: 180px;
+}
+.data_list .data_list_title .noteType_add{
+	float: right;
+	margin-right: 20px;
+}
+#myModal{
+	padding-top: 100px;
+	margin-left: 100px;
+}
+.data_list .note_title{
+	margin-top:20px;
+	text-align: center;
+}
+.data_list .note_info{
+	text-align: center;
+}
+.data_list .note_content{
+	margin-top:20px;
+}
+
+.data_list .note_btn{
+	margin-top:20px;
+}
+
+.data_list .note_datas{
+	padding: 5px;
+}
+
+.data_list .note_datas ul{
+	list-style-type: none;
+}
+
+.data_list .note_datas ul li{
+	margin-top: 15px;
+	font-size:18px;
+}

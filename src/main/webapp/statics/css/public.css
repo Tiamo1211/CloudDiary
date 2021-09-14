@@ -1,0 +1,39 @@
+﻿body,div,table,dl,dt,dd,form,fieldset{ padding:0px; margin:0px auto;}
+body { background:#388add; color:#333; font-family:"微软雅黑", "Microsoft YaHei", Helvetica,sansation, Verdana, Arial, sans-serif; font-size:12px; word-wrap:break-word; word-break:break-all; word-break:normal;}
+img { border:none;}
+h1,h2,h3,form,input,iframe,span,p,img { margin:0; padding:0;}
+ul,li { list-style:none; margin:0px; padding:0px;}
+table { border-collapse:0; border-spacing:0; border-collapse:collapse;}
+label { vertical-align:middle}
+a:active, a:focus { -moz-outline:none; outline:none; ie-dummy:expression(this.hideFocus=true);}/*清除a链接过后的虚线*/
+input,textarea { outline:none;}/*清除Safari和Chrome输入框得到焦点时边框会出现阴影*/
+a { color:#333; text-decoration:none;}
+a:hover { color:#f00; text-decoration:none;}
+a{ blr:expression(this.onFocus=this.blur())}/*去掉a标签的虚线框，避免出现奇怪的选中区域*/
+:focus{ outline:0;}
+
+.inputcheckbox{ vertical-align:middle;}
+.slh { white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.fl { float:left}
+.fr { float:right}
+.clr { clear:both}
+.red { color:#f00;}
+.green { color:#090;}
+.blue { color:#245693;}
+.successys { color:#92de00;}
+.orange { color:#fc0;}
+.zhongh { color:#e54600;}
+.jc { font-weight:bold;}
+.jgjl { margin-top:5px;}
+.titletext { color:#92de00; background:#0a2756;}
+.hand { cursor:pointer;}
+.hide { display:none;}
+.show { }
+h2,h1,.yahei14,.yahei16,.yahei18,.yahei20,.yahei24,.yahei26 { font-family:"Microsoft YaHei",微软雅黑,黑体,SimSun,Arial;}
+.yahei12 { font-size:14px; }
+.yahei14 { font-size:14px; }
+.yahei16 { font-size:16px;}
+h2,.yahei18 { font-size:18px;}
+.yahei20 { font-size:20px;}
+h1,.yahei24 { font-size:24px;}
+.yahei26 { font-size:26px;}
